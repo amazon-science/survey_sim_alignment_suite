@@ -4,9 +4,11 @@
 
 """Compute significance tests: for each benchmark×metric, find the best performer
 (across persona sources + baselines), then mark all others with * if significantly different."""
-import json, numpy as np
+import json, sys, numpy as np
 from pathlib import Path
 from scipy import stats
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from personagen.evaluation import compute_alignment, parse_choice
 
 BENCHMARKS = ['gss', 'opinionqa_w34', 'opinionqa_w50', 'opinionqa_w92']

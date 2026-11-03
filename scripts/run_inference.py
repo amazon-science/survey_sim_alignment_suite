@@ -40,7 +40,7 @@ def parse_args():
     p.add_argument("--eval_only", action="store_true")
     p.add_argument("--output", default=None)
     p.add_argument("--max_personas", type=int, default=None, help="Limit number of personas")
-    p.add_argument("--batch", action="store_true", help="Use batch inference (50% cheaper)")
+    p.add_argument("--batch", action="store_true", help="Use batch inference (50%% cheaper)")
     p.add_argument("--s3_bucket", default=None, help="S3 bucket for batch I/O")
     p.add_argument("--role_arn", default=None, help="IAM role ARN for batch job")
     return p.parse_args()
