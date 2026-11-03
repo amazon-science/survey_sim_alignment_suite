@@ -156,7 +156,7 @@ If you use RADIUS in your research, please cite:
 @inproceedings{lajewska2026radius,
   title     = {{RADIUS}: Ranking, Distribution, and Significance -- A Comprehensive Alignment Suite for Survey Simulation},
   author    = {{\L}ajewska, Weronika and Missault, Paul and Davidson, George and Mansour, Saab},
-  booktitle = {NeurIPS 2026 Workshop on Grounded User Simulation for Model Evaluation and Training: Diversity, Fidelity, and Validity},
+  booktitle = {UserSim @ NeurIPS 2026: Workshop on Grounded User Simulation for Model Evaluation and Training: Diversity, Fidelity, and Validity},
   year      = {2026}
 }
 ```
