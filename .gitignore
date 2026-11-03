@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.checkpoint.json
+data/raw/
+data/sample/
+data/benchmarks/
+output/*
+!output/README.md

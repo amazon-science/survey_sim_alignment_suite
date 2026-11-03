@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "personagen"
+version = "0.1.0"
+description = "Data-driven persona generation and survey simulation pipeline"
+license = {text = "CC-BY-NC-4.0"}
+requires-python = ">=3.10"
+dependencies = [
+    "boto3>=1.28",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "tqdm>=4.60",
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
